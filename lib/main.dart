@@ -29,11 +29,11 @@ class MyApp extends StatelessWidget {
               return MaterialApp(
                 theme: ThemeData(
                   textTheme: TextTheme(
-                    subhead: TextStyle(
+                    subtitle1: TextStyle(
                         color: Colors.black,
                         fontSize: 16,
                         fontWeight: FontWeight.bold),
-                    title: TextStyle(color: Colors.black54, fontSize: 14),
+                    headline1: TextStyle(color: Colors.black54, fontSize: 14),
                   ),
                   primarySwatch: Colors.deepOrange,
                   scaffoldBackgroundColor: Colors.white,
@@ -59,11 +59,11 @@ class MyApp extends StatelessWidget {
                 ),
                 darkTheme: ThemeData(
                   textTheme: TextTheme(
-                    subhead: TextStyle(
+                    subtitle1: TextStyle(
                         color: Colors.white,
                         fontSize: 16,
                         fontWeight: FontWeight.bold),
-                    title: TextStyle(color: Colors.white70, fontSize: 14),
+                    headline1: TextStyle(color: Colors.white70, fontSize: 14),
                   ),
                   dividerColor: Colors.white38,
                   primarySwatch: Colors.deepOrange,

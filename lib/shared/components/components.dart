@@ -1,7 +1,6 @@
 import 'package:conditional_builder/conditional_builder.dart';
 import 'package:flutter/material.dart';
 import 'package:news_app/modules/web_view.dart';
-import 'package:news_app/shared/cubit/news_cubit.dart';
 
 Widget buildArticleItem(articel, context) {
   return InkWell(
@@ -21,13 +20,13 @@ Widget buildArticleItem(articel, context) {
       ),
       title: Text(
         "${articel['title']}",
-        style: Theme.of(context).textTheme.subhead,
+        style: Theme.of(context).textTheme.subtitle1,
         maxLines: 2,
         overflow: TextOverflow.ellipsis,
       ),
       subtitle: Text(
         "${articel['publishedAt']}",
-        style: Theme.of(context).textTheme.title,
+        style: Theme.of(context).textTheme.subtitle1,
         maxLines: 1,
         overflow: TextOverflow.ellipsis,
       ),

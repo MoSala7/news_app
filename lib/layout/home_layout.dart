@@ -13,9 +13,7 @@ class _NewsHomeState extends State<NewsHome> {
   @override
   Widget build(BuildContext context) {
     return BlocConsumer<NewsCubit, NewsState>(
-      listener: (context, state) {
-        // TODO: implement listener
-      },
+      listener: (context, state) {},
       builder: (context, state) {
         NewsCubit cubit = NewsCubit.get(context);
         return Scaffold(
